@@ -20,10 +20,8 @@ Help them out by creating the necessary SQL scripts to create such a database us
    
 
 1. Create an empty database on your database server and connect to it
-    - The database server version is `10` (i.e. `10.12`) or higher (verify with `SELECT version();`)
-    - A superuser's credentials are known (i.e. `postgres` user with password `admin` or `ubuntu` user with password `ubuntu`)
     - A database named `tododb` is created on the database server
-    - The database server can be accessed with `psql` or pgAdmin
+
 
 2. Create an SQL script that creates the necessary tables to store user and todo information
     - Script is saved in `task-1.sql`
